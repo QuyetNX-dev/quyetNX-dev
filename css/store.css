@@ -1,0 +1,200 @@
+body{
+	background: url(../IMG/Background.jpg) no-repeat center top;
+	background-size: cover;
+    /*background-attachment: fixed;*/
+    /*font-family: 'Roboto', sans-serif;*/
+}
+header{
+	background-color: #0000006e;
+	/*position: fixed;*/
+	margin-bottom: 20px;
+/*	padding-top: 13px;
+	padding-bottom: 13px;*/
+    transition-duration: .2s;
+}
+
+.ps4{
+	background-color: #0d66cf!important;
+	color: #fff!important;
+	border-radius: 5px;
+}
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #f8f9fa;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-light .navbar-nav .nav-link{
+  border: solid 1px rgba(0,0,0,0);
+}
+/*.navbar-light .navbar-nav .nav-link:focus,*/ .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff!important;
+    border: solid 1px #007bff;
+}
+.store {border: solid 1px #007bff!important;}
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+.navbar {
+    padding-top: 0.5rem;
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0rem;
+}
+.navbar-brand {
+	font-size: .9rem;
+}
+ .navbar-light .navbar-brand:hover {
+    color: #007bff;
+}
+/*.....................................................................<FRIEND>............................................................................*/
+
+.friend .backg{
+    background: url(../img2/Background1.jpg) no-repeat center center;
+    background-size: cover;
+    color: #fff;
+    margin: 0px;
+}
+.friend .lin{
+    background-color: #000000c4;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.friend img{
+    float: left;
+    padding-right: 10px;
+}
+.friend h6{
+    padding-top: 30px;
+}
+.friend p{
+    padding-bottom: 30px;
+}
+.friend .a{
+    color: black;
+    background-color: #fff;
+    padding: 7px 10px 7px 10px;
+    border-radius: 5px;
+}
+
+/*.......................................................................<today>......................................................................*/
+.today{
+    /*margin-bottom: 30px;*/
+}
+.today .backg{
+    background-color: #fff;
+    background: url(../img2/today1.png) no-repeat right bottom;
+    background-size: cover;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.today img{
+    width: 100%;
+}
+.today small{
+    display: block;
+    color: black;
+}
+.today h1{
+    padding-bottom: 20px;
+    color: #0d66cf;
+}
+.today .p{
+    padding-bottom: 20px;
+}
+.today span{
+    display: block;
+    font-weight: bold;
+}
+.today .cach{
+    padding-left: 40px;
+}
+.today a{
+    padding: 7px 10px 7px 10px;
+    background-color: #0d66cf;
+    border-radius: 5px;
+    color: #fff;
+}  
+
+/*..................................................................<CALL1>........................................................................*/
+
+.call1{
+    padding-top: 10px;
+}
+.call1 .x{
+    transition-duration: .4s;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.call1 .x:hover{
+    background-color: black;
+}
+.call1 .fon h3{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.call1 .fon {
+    color:#fff;
+}
+
+.call1 .v1{
+    background: url(../img2/15.png) no-repeat center center;
+}
+.call1 .v2{
+    background: url(../img2/13.png) no-repeat center center;
+}
+.call1 .v3{
+    background: url(../img2/14.png) no-repeat center center;
+}
+.call1 .v4{
+    background: url(../img2/16.png) no-repeat center center;
+}
+.call1 .of{
+    position: relative;
+    padding-top: 60.36%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.call1 .z1, .call1 .z2, .call1 .z3, .call1 .z4{
+    background-color: #4f555d;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+}
+.vue .backg{
+    margin-left: 0px;
+    margin-right: 0px;
+    background-color: black;
+    /*padding-top: 15px;*/
+    /*padding-bottom: 15px;*/
+    /*margin-bottom: 20px;*/
+}
+.vue .im1 img{
+    width: 100%;
+}
+.vue .im1{
+    padding-left: 0px;
+}
+.vue .im2{
+    padding-top: 30px;
+}
+
+.vue .im2 img{
+    width: 90%;
+    padding-bottom: 20px;
+}

@@ -1,0 +1,322 @@
+body{
+	background: url(../IMG/Background.jpg) no-repeat center top;
+	background-size: cover;
+    /*background-attachment: fixed;*/
+}
+header{
+	background-color: #202123c7;
+	/*position: fixed;*/
+	margin-bottom: 20px;
+	padding-top: 13px;
+	padding-bottom: 13px;
+}
+.sticky {
+    position: fixed;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    background: black;
+    z-index: 10000;
+}
+.my{
+    color: #fff;
+    padding-right: 50px;
+}
+.my:hover {
+    color: #0076ff;
+    text-decoration: none;
+}
+/*........................................................................<search>..........................................................*/
+.btn-outline-success {
+    color: #fff;
+    background-color: transparent;
+    background-image: none;
+    /*border-color: #31b951;*/
+    border: solid 1px gray;
+    border-radius: 0px;
+}
+.jj {
+    border-radius: 0px;
+    width: 120px!important;
+    transition: width .35s ease-in-out;
+    transition: width .35s ease-in-out;
+    margin-right: 0px !important;
+}
+.jj:focus{
+    width: 190px !important;
+    background-color:#fff;
+}
+/*..................................................................................................................................*/
+.ps4{
+	background-color: #0d66cf!important;
+	color: #fff!important;
+	border-radius: 5px;
+}
+
+.bg-light {
+    background-color: #f8f9fa00!important;
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #f8f9fa;
+}
+.navbar-light .navbar-nav .nav-link.disabled {
+    color: #f8f9fa;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.navbar-light .navbar-nav .nav-link{
+  border: solid 1px rgba(0,0,0,0);
+}
+/*.navbar-light .navbar-nav .nav-link:focus,*/ .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff!important;
+    border: solid 1px #007bff;
+}
+.game {border: solid 1px #007bff!important;}
+.navbar-light .navbar-brand {
+    color: #f8f9fa;
+}
+.navbar {
+    padding-top: 0.5rem;
+    padding-right: 0rem;
+    padding-bottom: 0.5rem;
+    padding-left: 0rem;
+}
+.navbar-brand {
+	font-size: .9rem;
+}
+ .navbar-light .navbar-brand:hover {
+    color: #007bff;
+}
+.upcoming .backg{
+    background: url(../img2/baner.png) no-repeat left bottom;
+    background-size: cover;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    margin:0px;
+}
+.upcoming small{
+    display: block;
+    color: #0d66cf;
+}
+.menu2 .baner img{
+    width: 100%;
+}
+/*.........................................................................<CALL>.............................................................................*/
+.call{
+    padding-top: 10px;
+}
+.call .x{
+    transition-duration: .4s;
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+.call .x:hover{
+    background-color: black;
+}
+.call .fon h3{
+    font-size: 18px;
+    padding-top: 20px;
+}
+.call .fon {
+    color:#fff;
+}
+.call .of{
+    position: relative;
+    padding-top: 60.36%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+
+}
+.call .v1{
+    background: url(../IMG/store-bitmap15.png) no-repeat center center;
+}
+.call .v2{
+    background: url(../IMG/store-bitmap17.png) no-repeat center center;
+}
+.call .v3{
+    background: url(../IMG/store-bitmap19.png) no-repeat center center;
+}
+.call .v4{
+    background: url(../IMG/store-bitmap21.png) no-repeat center center;
+}
+.call .z1, .call .z2, .call .z3, .call .z4{
+    background-color: #4f555d;
+    font-size: 14px;
+    color: #fff;
+    padding: 5px 5px 5px 5px;
+    border-radius: 2px;
+}
+
+/*.............................................................<MAINPS>.....................................................................*/
+.mainps{
+    margin-top: 50px;
+}
+.mainps h3{
+    font-size: 18px;
+}
+.mainps .baner{
+    background: url(../IMG/ps4-bitmap2.png) no-repeat center center;
+    background-size: cover;
+    margin:0;
+}
+.mainps .baner1{
+    background: url(../IMG/ps4-bitmap3.png) no-repeat center center;
+    background-size: cover;
+    margin:0;
+}
+.mainps .c3{
+    color: #fff;
+    background-color: #000000ad;
+    padding-top: 40px;
+    padding-bottom: 50px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.mainps .cach50px {
+    padding-top: 20px;
+}
+.mainps .cach50px2 {
+    margin-bottom: 80px;
+}
+.mainps .c3 .x{
+    padding-left: 15px;
+}
+.mainps .c3 a{
+    background-color: #fff;
+    padding: 7px 10px 7px 10px;
+    border-radius: 3px;
+    color: black;
+    margin-left: 15px;
+}
+
+/*....................................................................<BROWSE>............................................................*/
+
+.browse{
+    color: #fff;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+.browse h3{
+    font-size: 30px;
+}
+.browse span{
+    color: #0076ff;
+}
+.browse .gach {
+    border-bottom: solid 3px gray;
+    padding-top: 20px;
+}
+
+/*......................................................................<SLIDE>............................................................*/
+/*.slide .hov{
+    transition-duration: .4s;
+    margin-bottom: 10px;
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+}
+.slide .hov:hover{
+    border: solid 1px black;
+    box-shadow: 0px 0px 14px 3px rgba(8, 8, 8, 0.6);
+    background-color: #0d66cf;
+    transform: scale(1,1);
+}*/
+.slide .a{
+    padding-top: 15px;
+    padding-bottom: 20px;
+    transition-duration: .4s;
+}
+.slide .a:hover{
+    background-color: black;
+    /*box-shadow: 0px 0px 14px 3px rgba(8, 8, 8, 0.6);*/
+}
+.slide h5 {
+    font-size: 17px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    margin-bottom: 0px;
+    color: #fff;
+    transition-duration: .4s;
+
+}
+.slide a{
+    text-decoration: none;
+}
+
+.slide .a1{
+    background: url(../img2/1.png);
+}
+.slide .a2{
+    background: url(../img2/2.png);
+}
+.slide .a3{
+    background: url(../img2/3.png);
+}
+.slide .a4{
+    background: url(../img2/4.png);
+}
+.slide .a5{
+    background: url(../img2/5.png);
+}
+.slide .a6{
+    background: url(../img2/6.png);
+}
+.slide .a7{
+    background: url(../img2/7.png);
+}
+.slide .a8{
+    background: url(../img2/8.png);
+}
+.slide .a9{
+    background: url(../img2/9.png);
+}
+.slide .a10{
+    background: url(../img2/10.png);
+}
+.slide .a11{
+    background: url(../img2/11.png);
+}
+.slide .a12{
+    background: url(../img2/18.png);
+}
+.slide .ratio{
+    position: relative;
+    padding-top: 115.45%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+/*.........................................................................<BET>...........................................................................*/
+
+.bet{
+    margin-top: 20px;
+    padding-top: 20px;
+    color: #fff;
+    background-color: black;
+}
+.bet i{
+    width: 40px;
+    height: 30px;
+    color: #fff;
+    font-size: 30px;
+}
+.content {
+    /*padding: 0 18px;*/
+    display: none;
+  /*  overflow: hidden;
+    background-color: #f1f1f1;*/
+}
+.ff a:hover{
+ color: #fff; 
+ background-color: gray;
+ padding-left: 20px;
+ padding-right: 20px;
+ box-shadow: rgba(0,0,0,0.23);
+}
